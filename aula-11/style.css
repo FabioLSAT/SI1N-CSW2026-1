@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora- {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+h1 {
+    font-family: "Sedan", serif;
+    color: #0563A4;
+    text-shadow: 10px 10px 5px rgba(6, 39, 150, 0.5) ;
+}
+
+h2 {font-family: "Open Sans", sans-serif;
+    color: #12A1E7;
+}
+    
+
+p{ font-family:"Lora", serif;}
+
+body {
+
+    background-image: linear-gradient(90deg, #0563A4, #12A1E7, #04B1BF, #8EDEF7)
+}
+
+.box {
+    padding: 60px;
+    background-color: #ffffff;
+    width: 600px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    right: 20%;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
