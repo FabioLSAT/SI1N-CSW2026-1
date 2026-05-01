@@ -1,0 +1,36 @@
+.spotify {
+    width: 300px;
+    height: 80px;
+    border-color: rgb(8, 95, 30);
+    border-width: 10px;
+    border-style: solid;
+    background-color: rgb(8, 95, 30);
+    padding: 20px;
+    border: 2px solid black
+    margin: 10px;
+    text-align:center
+}
+
+
+
+.spotify:hover {
+    background-color: rgb(207, 216, 194); 
+}
+
+a:hover{
+    cursor: pointer;
+}
+p{ color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a::after{content:'*'}
+a::before{content:'*'}
+
+a::after {
+    content: '\1F3B5; ';
+}
+
+p{color: black;}
+
